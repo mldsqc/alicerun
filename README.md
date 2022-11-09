@@ -323,7 +323,7 @@ Add a license here, or a link to it.
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat&logo=appveyor
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat&logo=appveyor&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://linkedin.com/in/
 [product-screenshot]: images/2.png
 
 
