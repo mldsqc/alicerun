@@ -111,7 +111,8 @@ Here are some self-digitalization pet projects that inspired my R&D process.
 
  ![Formula of Motivation](https://i.vas3k.club/3863eeacbacda0bf50b911bf2bc7ada51c3473ef3f566d28b52cdea086dbdab4.jpg)
 * [ Alex Vermeer inspired me in terms of breaking down motivation into components](https://alexvermeer.com/getmotivated/). When I first saw the [motivation formula](https://en.wikipedia.org/wiki/Temporal_motivation_theory) I felt relieved.
-* And finally, 
+* And finally, [Simon Chabot](https://framagit.org/chabotsi/miband2_analysis) analysed miband data, his repo was 
+  huge finding. 
 
 ##  :wrench: Screenshots of dashboard and ready to use features 
 ![В итоге, №1](images\2.png)
