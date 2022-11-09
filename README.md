@@ -21,7 +21,7 @@ height="540">
 
   <h2 align="center"> ALICERUN  </h2>
 
-  <h4 align="left">
+  <h4 align="center">
     Analize your digital activity's, mood, habits and predict what <br />
 to do next is best for your work-life balance 
 <br /><br />
