@@ -66,7 +66,7 @@ def sessions_download():
     datetime_convertion_colunm(session_archive, column='at')
 
     # sessions = pd.concat([session_archive, new_sessions])
-    sessions = sessions.drop_duplicates()
+    # sessions = sessions.drop_duplicates()
     return session_archive
 
 
