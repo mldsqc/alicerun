@@ -42,7 +42,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # TODO write right path in DBs folder DB_GADGETBRIDGE
-data = loaddata('/android_db/miband.db', cached=True)
+data = loaddata('./android_db/miband.db', cached=True)
 
 fig1 = go.Figure()
 fig2 = go.Figure()
