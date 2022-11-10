@@ -809,7 +809,7 @@ def streamlit_dash():
     df_sessions = pd.DataFrame(sessions_download())
     df_sessions.rename(columns={'description': 'subject'}, inplace=True)
     df_sessions = df_sessions[df_sessions.duration > 0]
-
+    DB_TODO = "./android_db/todosqlite.db"
     df_tasks, df_joined = df_tasks_prepare(DB_TODO)
     df_tasks_2 = tasks_read_metrics(df_tasks, df_joined)
     df_tasks_3 = tasks_motivation(df_tasks_2)
