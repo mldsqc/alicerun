@@ -7,3 +7,4 @@ pandas
 tzdata
 google-cloud-logging
 matplotlib
+plotly
