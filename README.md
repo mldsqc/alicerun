@@ -67,7 +67,7 @@ recommendation system for task prioritization and balanced life
 
 ##  :beginner: Motivation
 
-This year is total mess. So i got a lot of frustration.
+This year is total mess, a lot of frustration.
 So i decided to make a tool for quantitative self-assessment to track the emotional background and the progress of 
 life goals, habits, and mood. Engineer, huh.
   
