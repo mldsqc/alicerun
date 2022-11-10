@@ -159,12 +159,12 @@ What will you  need:
 - Registration of personal Google cloud app (to get access to drive, calendar, etc.)
 
 
-## What is a technological stack 
+## :zap: What is a technological stack 
   
 stack: pandas, PostgreSQL, time-series forecasting, KNN clusterisation,
 plotly, dash, streamlit, toggl API, Microsoft graph API, google cloud, telegram-bot
   
-## Disclaimer, after which the project could not even start.
+## :zap: Disclaimer, after which the project could not even start.
 
 * There are problems with registering emotions and habits in real-time. We all have instruments to register a pulse, 
 stress level, and EEG in everyday life. I wish somebody will come up with small and easily accessible sensors for reading emotions instantly (if there are recommendations, write *), yeap, I know about reading emotions by face with CV, and i think it's not ideal yet).
@@ -188,7 +188,7 @@ stress level, and EEG in everyday life. I wish somebody will come up with small 
 
  ![Description of metrics from the task dataset](https://i.vas3k.club/76e555c1b1a047be3f952046cf4e974347ab8efa478bbbd98e080f0cd47322cd.jpg)
 
-### How much did i spend?
+### :time: How much did i spend?
 ![project track](https://i.vas3k.club/006c4e46ea73f6728177351144c893876b0c0f443b6d8c09d2d23ad9c88c36fb.jpg)
 
 Spent 240 hours. Lines of code ~ 8200, of which 3500 (experiments) did not enter production, from the rest ~ 15% of someone else's code (smartwatch block)
@@ -204,13 +204,13 @@ Spent 240 hours. Lines of code ~ 8200, of which 3500 (experiments) did not enter
 	* Integrate Anki cards
 
 
-## Don't forget to write about the name
+## :star2: Don't forget to write about the name
 alicerun is a reference to Lewis Carroll.
 *My dear, here we must run as fast as we can, just to stay in place. And if you wish to go anywhere you must run twice as fast as that.
 
 other options were: Munchausen (a reference to pulling himself by the hair from the mud), moospace (like mootivation), well, quite a punkish JORK... maybe mr. Jork Munhausen can be fine? I dunno
 
-## How does the system helps me?
+## :star2: How does the system helps me?
 I will not say that I open the dashboard every day. But I use the entire tracking workflow every day and this 
 creates the effect of self-discipline. I began to notice behavioral patterns more often.
   
@@ -287,16 +287,24 @@ The best thing that has been achieved is a cozy feeling of control over the situ
 [//]: # (After this, changes will be merged.)
 
 
-## :star2: Credit/Acknowledgment
+[//]: # (## :star2: Credit/Acknowledgment)
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+[//]: # ()
+[//]: # (* [Choose an Open Source License]&#40;https://choosealicense.com&#41;)
+
+[//]: # (* [GitHub Emoji Cheat Sheet]&#40;https://www.webpagefx.com/tools/emoji-cheat-sheet&#41;)
+
+[//]: # (* [Malven's Flexbox Cheatsheet]&#40;https://flexbox.malven.co/&#41;)
+
+[//]: # (* [Malven's Grid Cheatsheet]&#40;https://grid.malven.co/&#41;)
+
+[//]: # (* [Img Shields]&#40;https://shields.io&#41;)
+
+[//]: # (* [GitHub Pages]&#40;https://pages.github.com&#41;)
+
+[//]: # (* [Font Awesome]&#40;https://fontawesome.com&#41;)
+
+[//]: # (* [React Icons]&#40;https://react-icons.github.io/react-icons/search&#41;)
 
 
 
@@ -304,8 +312,9 @@ The best thing that has been achieved is a cozy feeling of control over the situ
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-##  :lock: License
-Add a license here, or a link to it.
+[//]: # (##  :lock: License)
+
+[//]: # (Add a license here, or a link to it.)
 
 
 
