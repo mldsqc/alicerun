@@ -8,7 +8,7 @@ tzdata
 google-cloud-logging
 matplotlib
 plotly
-sklearn
+scikit-learn
 numpy
 json
 requests
