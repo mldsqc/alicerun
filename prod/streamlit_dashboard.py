@@ -916,7 +916,7 @@ def streamlit_dash():
     last_month_amount_done_tasks, how_changed, today_creat, how_changd_2 = done_tasks_and__creativity_simple_metricks(df_tasks_3_t)
 
     from PIL import Image
-    image = Image.open('image.png')
+    image = Image.open('./prod/image.png')
     mygrid[0][3].image(image)
 
     mygrid[0][3].metric(f"{random_emoji()}" + "My monthly amount done tasks", str(last_month_amount_done_tasks),
