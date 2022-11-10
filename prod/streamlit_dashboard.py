@@ -802,7 +802,7 @@ def streamlit_dash():
     global df_emotions, df_habits, df_emotions1, df_tasks_3, df_tasks_3_t
 
     #####  CONNECT to DBs ########
-    DB_ADASH1, DB_TODO, DB_ACTWATCH, DB_GADGETBRIDGE, DB_ADASH2, DB_ADASH3, DB_ADASH4, DB_EMOTIONS_TEST = read_db_paths()
+    # DB_ADASH1, DB_TODO, DB_ACTWATCH, DB_GADGETBRIDGE, DB_ADASH2, DB_ADASH3, DB_ADASH4, DB_EMOTIONS_TEST = read_db_paths()
     df_emotions, df_habits, df_emotions1 = emotions_habits_df_prepare()
 
     #####  MANIPULATE DATAFRAMES ########

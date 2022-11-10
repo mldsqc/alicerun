@@ -168,7 +168,7 @@ def emotions_habits_df_prepare():
         replace = (dt.minute // interval) * interval
         return dt.replace(minute=replace, second=0, microsecond=0)
 
-    DB_EMOTIONS_TEST = read_db_paths()[-1]
+    # DB_EMOTIONS_TEST = read_db_paths()[-1]
     emotions_habits = pd.read_csv(DB_EMOTIONS_TEST)
     emotions_values, habits_values, emotions_and_habits_values = load_emotions_habits_values()
     # emotions_habits
