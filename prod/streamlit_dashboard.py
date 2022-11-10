@@ -597,7 +597,7 @@ def ideas_sparks(df_tasks_3_t):
 def life_areas_balance_count(df_tasks_3_t, df_habits, period='W'):
     """count habits and tasks done by time period grouping by life_areas
         not counting summary values of habbits, just counting amount of acts """
-    from shapely.geometry import MultiPoint
+    # from shapely.geometry import MultiPoint
     habits_list_for_check = {
     'PHYSICAL': ['slept_GOOD', 'cold shower', '10 pushups everyday', 'big physical activity',
                               'over_eated', 'fastfood', 'cafe'],
@@ -680,12 +680,12 @@ def life_areas_balance_count(df_tasks_3_t, df_habits, period='W'):
     # https://stackoverflow.com/questions/73624867/how-to-calculate-area-of-a-radar-chart-in-plotly-matplotlib
     # compare areas of two plots
     # convert theta to be in radians
-    out["theta_n"] = pd.factorize(out["life_area"])[0]
-    out["theta_radian"] = (out["theta_n"] / (out["theta_n"].max() + 1)) * 2 * np.pi
-    # work out x,y co-ordinates
-    out["x"] = np.cos(out["theta_radian"]) * out["act"]
-    out["y"] = np.sin(out["theta_radian"]) * out["act"]
-    df_a = out.groupby("model").apply(lambda d: MultiPoint(list(zip(d["x"], d["y"]))).convex_hull.area)
+    # out["theta_n"] = pd.factorize(out["life_area"])[0]
+    # out["theta_radian"] = (out["theta_n"] / (out["theta_n"].max() + 1)) * 2 * np.pi
+    # # work out x,y co-ordinates
+    # out["x"] = np.cos(out["theta_radian"]) * out["act"]
+    # out["y"] = np.sin(out["theta_radian"]) * out["act"]
+    # df_a = out.groupby("model").apply(lambda d: MultiPoint(list(zip(d["x"], d["y"]))).convex_hull.area)
 
     # print(df_a)
 
