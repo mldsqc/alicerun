@@ -40,32 +40,32 @@ def sessions_download():
         lst3 = [value for value in lst1 if value in lst2]
         return lst3
 
-    sessions_archive_file2 = config.get('toggl', 'sessions_archive2')
-    session_archive = pd.read_csv(sessions_archive_file2)
+    # sessions_archive_file2 = config.get('toggl', 'sessions_archive2')
+    session_archive = pd.read_csv("./android_db/Toggl_time_entries3.csv")
 
-    authHeader = config.get('toggl', 'TOKEN') + ":" + "api_token"
-    data = requests.get('https://api.track.toggl.com/api/v9/me/time_entries',
-                        headers={'content-type': 'application/json', 'Authorization': 'Basic %s' % b64encode(authHeader
-                                                                                                             .encode()).decode(
-                            "ascii")})
-
-    new_sessions = pd.read_json(json.dumps(data.json()), orient='records')
-    # new_sessions = new_sessions[1:,:]
-
-    intersection_col_list = intersection(session_archive.columns, new_sessions.columns)
-    intersection_col_list.remove('billable')
-
-    session_archive = session_archive[session_archive.columns.intersection(intersection_col_list)]
-    new_sessions = new_sessions[new_sessions.columns.intersection(intersection_col_list)]
-
-    datetime_convertion_colunm(new_sessions, column='start')
-    datetime_convertion_colunm(new_sessions, column='stop')
-    datetime_convertion_colunm(new_sessions, column='at')
+    # authHeader = config.get('toggl', 'TOKEN') + ":" + "api_token"
+    # data = requests.get('https://api.track.toggl.com/api/v9/me/time_entries',
+    #                     headers={'content-type': 'application/json', 'Authorization': 'Basic %s' % b64encode(authHeader
+    #                                                                                                          .encode()).decode(
+    #                         "ascii")})
+    #
+    # new_sessions = pd.read_json(json.dumps(data.json()), orient='records')
+    # # new_sessions = new_sessions[1:,:]
+    #
+    # intersection_col_list = intersection(session_archive.columns, new_sessions.columns)
+    # intersection_col_list.remove('billable')
+    #
+    # session_archive = session_archive[session_archive.columns.intersection(intersection_col_list)]
+    # new_sessions = new_sessions[new_sessions.columns.intersection(intersection_col_list)]
+    #
+    # datetime_convertion_colunm(new_sessions, column='start')
+    # datetime_convertion_colunm(new_sessions, column='stop')
+    # datetime_convertion_colunm(new_sessions, column='at')
     datetime_convertion_colunm(session_archive, column='start')
     datetime_convertion_colunm(session_archive, column='stop')
     datetime_convertion_colunm(session_archive, column='at')
 
-    sessions = pd.concat([session_archive, new_sessions])
+    # sessions = pd.concat([session_archive, new_sessions])
     sessions = sessions.drop_duplicates()
     return session_archive
 
