@@ -188,7 +188,7 @@ stress level, and EEG in everyday life. I wish somebody will come up with small 
 
  ![Description of metrics from the task dataset](https://i.vas3k.club/76e555c1b1a047be3f952046cf4e974347ab8efa478bbbd98e080f0cd47322cd.jpg)
 
-### :time: How much did i spend?
+### :package: How much did i spend?
 ![project track](https://i.vas3k.club/006c4e46ea73f6728177351144c893876b0c0f443b6d8c09d2d23ad9c88c36fb.jpg)
 
 Spent 240 hours. Lines of code ~ 8200, of which 3500 (experiments) did not enter production, from the rest ~ 15% of someone else's code (smartwatch block)
