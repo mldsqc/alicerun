@@ -809,7 +809,16 @@ def streamlit_dash():
     df_sessions = pd.DataFrame(sessions_download())
     df_sessions.rename(columns={'description': 'subject'}, inplace=True)
     df_sessions = df_sessions[df_sessions.duration > 0]
+
+    DB_ADASH1 = "./android_db/com.actiondash.playstore/databases/app_info"
+    DB_ADASH2 = "./android_db/com.actiondash.playstore/databases/usage_events"
+    DB_ADASH3 = "./android_db/com.actiondash.playstore/databases/UsageStatsDatabase"
+    DB_ADASH4 = "./android_db/com.actiondash.playstore/databases/NotificationEntity"
+    DB_ACTWATCH = "./android_db/net.activitywatch.android/files/sqlite.db"
     DB_TODO = "./android_db/todosqlite.db"
+    DB_GADGETBRIDGE = "./android_db/nodomain.freeyourgadget.gadgetbridge/databases/Gadgetbridge"
+    DB_EMOTIONS_TEST = "./android_db/habits_emotions.csv"
+
     df_tasks, df_joined = df_tasks_prepare(DB_TODO)
     df_tasks_2 = tasks_read_metrics(df_tasks, df_joined)
     df_tasks_3 = tasks_motivation(df_tasks_2)
