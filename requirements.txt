@@ -6,3 +6,4 @@ psycopg2-binary
 pandas
 tzdata
 google-cloud-logging
+matplotlib
