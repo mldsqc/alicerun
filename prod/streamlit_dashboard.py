@@ -1,5 +1,8 @@
 
-import pylab as p
+# import pylab as p
+# import matplotlib
+from matplotlib import pylab as p
+from pylab import *
 
 from datetime import timedelta
 
