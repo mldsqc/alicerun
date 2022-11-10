@@ -4,8 +4,10 @@
 from datetime import datetime
 from time import mktime
 import sqlite3
-import pylab as p
+# import pylab as p
 import pandas as pd
+from matplotlib import pylab as p
+
 import numpy as np
 
 from pandas.plotting import scatter_matrix

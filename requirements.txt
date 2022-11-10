@@ -8,3 +8,13 @@ tzdata
 google-cloud-logging
 matplotlib
 plotly
+sklearn
+numpy
+json
+requests
+base64
+datetime
+joblib
+statsforecast
+sqlite3
+scipy
