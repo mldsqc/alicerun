@@ -1,0 +1,56 @@
+[telegram-bot]
+TOKEN=232531:12gdsaba
+API_ID=2342351
+API_HASH=qrebeqaq3qgq3hbqq5h6m6q5m
+
+[mysql]
+host = localhost
+database = db_name
+user = jack
+password =eqfpovca'vbm'awbve*^)0981nKNn!
+
+[postgresql]
+host=postgres
+database=db_name
+user=jack
+password=vuba'ovb2
+
+[toggl]
+TOKEN=miv:oinrvn'q3b
+sessions_archive=../android_db/example.csv
+sessions_archive2=../android_db/example2.csv
+
+[DB_PATHS]
+
+# actiondash DB
+# AppInfoEntity
+DB_ADASH1 =../android_db/com.actiondash.playstore/databases/app_info
+DB_ADASH2 =../android_db/com.actiondash.playstore/databases/usage_events
+# AppInfoEntity
+DB_ADASH3 =../android_db/com.actiondash.playstore/databases/UsageStatsDatabase
+# UsageEventEntity AppInfoEntity
+DB_ADASH4 =../android_db/com.actiondash.playstore/databases/NotificationEntity
+# NotificationEventEntity
+
+# activitywatch DB
+DB_ACTWATCH =../android_db/net.activitywatch.android/files/sqlite.db
+
+# microsoftTODO DB
+DB_TODO =../android_db/todosqlite.db
+
+# gadgetbridge DB
+# MI_BAND_ACTIVITY_SAMPLE
+DB_GADGETBRIDGE =../android_db/nodomain.freeyourgadget.gadgetbridge/databases/Gadgetbridge
+DB_EMOTIONS_TEST =../android_db/habits_emotions.csv
+
+[GCALENDAR]
+main =jack_example@gmail.com
+all_together =cbwieycbw.calendar.google.com
+sessions =hbacsbouvcouwqv131930.calendar.google.com
+gcal_iframe=<iframe src="" width="800" height="600" frameborder="0" scrolling="no" ></iframe>
+
+[ZIPFILE]
+pss=bqicbwqvb
+todosql_path=path_to_your_miscosoft_todo_databasefile_\todosqlite.db
+activitywatch_pc_path=path_to_your_activity_watch_databasefile_\peewee-sqlite.v2.db
+

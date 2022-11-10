@@ -1,0 +1,8 @@
+sqlalchemy
+python-telegram-bot
+pyTelegramBotApi
+configparser
+psycopg2-binary
+pandas
+tzdata
+google-cloud-logging

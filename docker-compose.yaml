@@ -1,0 +1,49 @@
+version: "0.1"
+
+networks:
+  postgres:
+    driver: bridge
+
+services:
+  my_container:
+    container_name: bot
+    image: digitalize:v1
+    ports:
+      - "8080:80"
+    networks:
+      - postgres
+    restart: unless-stopped
+    environment:
+      - TZ=$TZ
+    depends_on:
+      - pgdatabase
+
+  pgdatabase:
+    container_name: postgres
+    image: postgres:14
+    networks:
+      - postgres
+    environment:
+       - POSTGRES_USER=$DB_USER
+       - POSTGRES_PASSWORD=$DB_PASSWORD
+       - POSTGRES_DB=$DB_NAME
+       - TZ=$TZ
+    ports:
+      - "$DB_PORT:$DB_PORT"
+    restart: unless-stopped
+
+
+
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4:6.11
+    networks:
+      - postgres
+    restart: unless-stopped
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@admin.com
+      - PGADMIN_DEFAULT_PASSWORD=$DB_PASSWORD
+      - TZ=$TZ
+    ports:
+      - "8081:80"
+
