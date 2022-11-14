@@ -115,9 +115,9 @@ Here are some self-digitalization pet projects that inspired my R&D process.
   huge finding. 
 
 ##  :wrench: Screenshots of dashboard and ready to use features 
-![В итоге, №1](images\2.png)
-![В итоге, №2](images\3.png)
-![В итоге, №3](images\4.png)
+![Final cut, №1](https://raw.githubusercontent.com/mldsqc/alicerun/main/images/2.png)
+![Final cut, №2](https://raw.githubusercontent.com/mldsqc/alicerun/main/images/3.png)
+![Final cut, №3](https://raw.githubusercontent.com/mldsqc/alicerun/main/images/4.png)
   
 ![ecosystem in blocks](https://i.vas3k.club/6a8d038ecb3ea15f7b793d7e7f7f142768553e4493275429ba30bfc2f34efaba.jpg)
 And step by step:
