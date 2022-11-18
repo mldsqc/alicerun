@@ -32,10 +32,10 @@ habit and mood tracking, computer and smartphone tracking,<br /> CBT
 techniques, analyze them and build <br />
 recommendation system for task prioritization and balanced life 
     <br /><br />
-[![Contributors][contributors-shield]][contributors-url]
+<!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+[![Issues][issues-shield]][issues-url] -->
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
